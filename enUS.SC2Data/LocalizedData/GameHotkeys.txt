@@ -1,0 +1,2 @@
+﻿Button/Hotkey/K5Leviathan2=L
+Button/Hotkey/SwarmQueen2=Q

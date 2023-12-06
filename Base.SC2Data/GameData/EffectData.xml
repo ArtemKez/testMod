@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CEffectLaunchMissile id="AcidSalivaLM2">
+        <ValidatorArray index="0" value="RoachLMTargetFilters"/>
+        <EditorCategories value="Race:Zerg"/>
+        <ImpactEffect value="AcidSalivaSet2"/>
+        <AmmoUnit value="AcidSalivaWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectSet id="AcidSalivaSet2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="BileDuctsApplyBehavior2"/>
+        <EffectArray value="AcidSalivaU2"/>
+    </CEffectSet>
+    <CEffectDamage id="AcidSalivaU2" parent="DU_WEAP_MISSILE">
+        <EditorCategories value="Race:Zerg"/>
+        <Amount value="16"/>
+        <Death value="Disintegrate"/>
+    </CEffectDamage>
+    <CEffectDamage id="AcidSpines2" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <Kind value="Ranged"/>
+        <Amount value="9"/>
+    </CEffectDamage>
+    <CEffectLaunchMissile id="AcidSpinesLM2">
+        <EditorCategories value="Race:Zerg"/>
+        <ImpactEffect value="AcidSpines2"/>
+        <AmmoUnit value="AcidSpinesWeapon"/>
+        <Movers Link="AcidSpinesWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectApplyBehavior id="BileDuctsApplyBehavior2">
+        <ValidatorArray index="0" value="UseBileDucts"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Behavior value="BileDucts"/>
+    </CEffectApplyBehavior>
+    <CEffectDamage id="Claws2" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <Amount value="6"/>
+    </CEffectDamage>
+    <CEffectDamage id="ExplosiveSpinesDamage2" parent="DU_WEAP">
+        <EditorCategories value="Race:Terran"/>
+        <Kind value="Splash"/>
+        <Amount value="15"/>
+        <AreaArray Radius="1.5" Fraction="0.333"/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="Air;Self,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFlags index="OffsetByUnitRadius" value="0"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="FungalGrowthApplyBehavior2">
+        <EditorCategories value="Race:Zerg"/>
+        <Behavior value="FungalGrowth"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="FungalGrowthApplyMovementBehavior2">
+        <ValidatorArray index="0" value="TargetIsNotUnstoppable"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Behavior value="FungalGrowthMovement"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="FungalGrowthInitialSet2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="SurfaceForSpellcast2"/>
+        <EffectArray value="FungalGrowthSearch2"/>
+        <EffectArray value="FungalGrowthSearchDummy2"/>
+        <TargetLocationType value="Point"/>
+    </CEffectSet>
+    <CEffectLaunchMissile id="FungalGrowthLaunchMissile2">
+        <EditorCategories value=""/>
+        <ImpactLocation Value="TargetPoint"/>
+        <ImpactEffect value="FungalGrowthInitialSet2"/>
+        <AmmoUnit value="FungalGrowthMissile"/>
+    </CEffectLaunchMissile>
+    <CEffectEnumArea id="FungalGrowthSearch2">
+        <EditorCategories value="Race:Zerg"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <SearchFilters value="-;Player,Ally,Neutral,Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="2" Effect="FungalGrowthSet2"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectEnumArea>
+    <CEffectDamage id="FungalGrowthSearchDummy2">
+        <EditorCategories value="Race:Terran"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <Flags index="Notification" value="1"/>
+        <AreaArray Radius="2" Fraction="1"/>
+        <SearchFilters value="-;Player,Ally,Neutral,Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CEffectDamage>
+    <CEffectSet id="FungalGrowthSet2">
+        <ValidatorArray value=""/>
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="FungalGrowthApplyBehavior2"/>
+        <EffectArray value="FungalGrowthApplyMovementBehavior2"/>
+    </CEffectSet>
+    <CEffectSet id="HotSZerglingClaws2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="ZerglingFrenzy2"/>
+        <EffectArray value="ZerglingSunder2"/>
+        <EffectArray value="ZerglingRangeReapply2"/>
+        <EffectArray value="Claws2"/>
+    </CEffectSet>
+    <CEffectDamage id="HydraliskMelee2" parent="DU_WEAP">
+        <Name value="Effect/Name/NeedleSpinesDamage"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Marker Link="Effect/NeedleSpinesDamage"/>
+        <Amount value="12"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectSet id="HydraliskMeleeSet2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="ParalyticSpines3"/>
+        <EffectArray value="HydraliskMelee2"/>
+    </CEffectSet>
+    <CEffectDamage id="NeedleClaws2" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <AttributeBonus index="Structure" value="20"/>
+        <Amount value="10"/>
+    </CEffectDamage>
+    <CEffectDamage id="NeedleSpinesDamage2" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <Kind value="Ranged"/>
+        <Amount value="12"/>
+    </CEffectDamage>
+    <CEffectSet id="NeedleSpinesImpactSet2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="ParalyticSpines2"/>
+        <EffectArray value="NeedleSpinesDamage2"/>
+    </CEffectSet>
+    <CEffectSet id="NeedleSpinesImpactSetUpgraded2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="ParalyticSpines2"/>
+        <EffectArray value="ExplosiveSpinesDamage2"/>
+    </CEffectSet>
+    <CEffectSwitch id="NeedleSpinesImpactSwitch2">
+        <EditorCategories value="Race:Zerg"/>
+        <CaseArray Validator="TargetIsAirAndHaveExplosiveSpines" Effect="NeedleSpinesImpactSetUpgraded2"/>
+        <CaseDefault value="NeedleSpinesImpactSet2"/>
+    </CEffectSwitch>
+    <CEffectLaunchMissile id="NeedleSpinesLaunchMissile2">
+        <EditorCategories value="Race:Zerg"/>
+        <ImpactEffect value="NeedleSpinesImpactSwitch2"/>
+        <AmmoUnit value="NeedleSpinesWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectApplyBehavior id="ParalyticSpines2">
+        <ValidatorArray index="0" value="UseParalyticSpines"/>
+        <ValidatorArray value="TargetIsNotUnstoppable"/>
+        <EditorCategories value=""/>
+        <Behavior value="ParalyticSpines"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ParalyticSpines3">
+        <ValidatorArray index="0" value="UseParalyticSpines"/>
+        <ValidatorArray value="TargetIsNotUnstoppable"/>
+        <EditorCategories value=""/>
+        <Behavior value="ParalyticSpines"/>
+    </CEffectApplyBehavior>
+    <CEffectSet id="RoachMeleeSet2">
+        <EditorCategories value="Race:Zerg"/>
+        <EffectArray value="BileDuctsApplyBehavior"/>
+        <EffectArray value="RoachUMelee2"/>
+    </CEffectSet>
+    <CEffectDamage id="RoachUMelee2" parent="DU_WEAP_MISSILE">
+        <Name value="Effect/Name/AcidSalivaU"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Marker Link="Effect/AcidSalivaU"/>
+        <Kind value="Melee"/>
+        <Amount value="16"/>
+        <Death value="Eviscerate"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="SurfaceForSpellcast2">
+        <ValidatorArray index="0" value="IsInfestorBurrowed"/>
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="SurfaceForSpellCast"/>
+    </CEffectApplyBehavior>
+    <CEffectCreateUnit id="SwarmHostDeepBurrow">
+        <ValidatorArray index="0" removed="1"/>
+        <SpawnUnit index="0" value="SwarmHostSplitBPlacement2"/>
+    </CEffectCreateUnit>
+    <CEffectDamage id="Talons2" parent="DU_WEAP">
+        <EditorCategories value="Race:Zerg"/>
+        <AttributeBonus index="Armored" value="2"/>
+        <Kind value="Ranged"/>
+        <Amount value="4"/>
+    </CEffectDamage>
+    <CEffectCreatePersistent id="TalonsBurst2">
+        <EditorCategories value="Race:Zerg"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <PeriodCount value="2"/>
+        <PeriodicEffectArray value="Talons2"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.3"/>
+    </CEffectCreatePersistent>
+    <CEffectLaunchMissile id="TalonsLM2">
+        <EditorCategories value="Race:Zerg"/>
+        <ImpactEffect value="TalonsMissileDamage2"/>
+        <AmmoUnit value="TalonsMissileWeapon"/>
+    </CEffectLaunchMissile>
+    <CEffectCreatePersistent id="TalonsMissileBurst2">
+        <EditorCategories value="Race:Zerg"/>
+        <WhichLocation Value="TargetUnit"/>
+        <TimeScaleSource Value="Caster"/>
+        <Flags index="Channeled" value="1"/>
+        <PeriodCount value="2"/>
+        <PeriodicEffectArray value="TalonsLM2"/>
+        <PeriodicPeriodArray value="0"/>
+        <PeriodicPeriodArray value="0.3"/>
+    </CEffectCreatePersistent>
+    <CEffectDamage id="TalonsMissileDamage2" parent="DU_WEAP">
+        <Name value="Effect/Name/Talons"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Marker Link="Effect/Talons"/>
+        <AttributeBonus index="Armored" value="2"/>
+        <Kind value="Ranged"/>
+        <Amount value="4"/>
+    </CEffectDamage>
+    <CEffectDamage id="ZHybridDamage2" parent="DU_WEAP">
+        <ValidatorArray value="NotCreepTumorBurrowed"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Kind value="Ranged"/>
+        <Amount value="40"/>
+        <SearchFilters value="-;Player,Ally,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CEffectDamage>
+    <CEffectApplyBehavior id="ZerglingFrenzy2">
+        <ValidatorArray value="HaveHotSZerglingFrenzy"/>
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ZerglingFrenzy"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingRangeReapply2">
+        <ValidatorArray index="0" value="HaveZerglingRangeBehavior"/>
+        <EditorCategories value="Race:Zerg"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="ZerglingRange"/>
+    </CEffectApplyBehavior>
+    <CEffectApplyBehavior id="ZerglingSunder2">
+        <ValidatorArray value="HaveHotSZerglingSunder"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Behavior value="ZerglingSunder"/>
+    </CEffectApplyBehavior>
+</Catalog>

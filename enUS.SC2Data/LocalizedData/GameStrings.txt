@@ -1,0 +1,134 @@
+﻿Abil/Name/BurrowHydraliskDown2=Burrow (Hydralisk)
+Abil/Name/BurrowHydraliskUp2=Unburrow (Hydralisk)
+Abil/Name/BurrowQueenDown2=Burrow
+Abil/Name/BurrowQueenUp2=Unburrow
+Abil/Name/BurrowRavagerDown2=Burrow
+Abil/Name/BurrowRavagerUp2=Unburrow
+Abil/Name/BurrowRoachDown2=Burrow (Roach)
+Abil/Name/BurrowRoachUp2=Unburrow (Roach)
+Abil/Name/BurrowUltraliskDown2=Burrow (Ultralisk)
+Abil/Name/BurrowUltraliskUp2=Unburrow (Ultralisk)
+Abil/Name/BurrowZerglingDown2=Burrow (Zergling)
+Abil/Name/BurrowZerglingDown3=Burrow (Broodling)
+Abil/Name/BurrowZerglingUp2=Unburrow (Zergling)
+Abil/Name/BurrowZerglingUp3=Unburrow (Broodling)
+Abil/Name/FungalGrowth2=Fungal Growth
+Abil/Name/LarvaTrain2=Morph Unit (Larva -> Basic)
+Abil/Name/MorphToOverseer2=Overlord Morph to Overseer
+Abil/Name/MutaliskMorphToDevourer2=Mutalisk Morph To Devourer
+Abil/Name/MutaliskMorphToGuardian2=Mutalisk Morph To Guardian
+Abil/Name/SwarmHostDeepBurrow2=Roach Deep Burrow
+Abil/Name/TrainQueen2=Train Queen
+Abil/Name/ZergBuild2=Morph Unit (Drone -> Zerg Buildings)
+Button/Name/K5Leviathan2=Spawn Leviathan
+Button/Name/SwarmQueen2=Birth Queen
+Button/Tooltip/BanelingNest2=<c val="ffff8a">Enables:</c><n/>- Banelings from Zerglings
+Button/Tooltip/BroodLord2=Flying heavy-assault unit. Shoots Broodlings at its target. A Broodling is a small creature that can attack ground units.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Capillarytower=Orbital defense structure. Launches globs of acid at the invasion fleet, but it poses no threat to planetside troops.
+Button/Tooltip/Corruptor2=Anti-air flyer. Can use Caustic Spray. Can morph into a Brood Lord.<n/><n/><c val="#ColorAttackInfo">Can attack air units.</c>
+Button/Tooltip/Drone2=Basic worker unit. Can harvest minerals and vespene gas. Can mutate into structures.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/EvolutionChamber2=Contains upgrades for Zerg ground units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Aberrations from Larvae with Lair or Hive
+Button/Tooltip/Guardian2=Long-range anti-ground flyer. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/Hatchery2=Primary structure. Used to spawn all Zerg units and receive gathered resources. Grows creep used to feed nearby Zerg structures. Can mutate into a Lair.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/Hydralisk2=Ranged attacker. Can morph into a Lurker.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/HydraliskDen2Impaler=Can mutate into an Impaler Den.</n></n><c val="ffff8a">Enables:</c><n/>- Hydralisks from Larvae
+Button/Tooltip/Infestor2=Infestation specialist. Can use the Fungal Growth and Infested Terran abilities.
+Button/Tooltip/K5Leviathan2=Summons a mighty flying Leviathan with timed life. Deals massive damage and has energy-based abilities.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/Larva2=Morphs into Zerg units.
+Button/Tooltip/Leviathan2=Colossal Zerg flyer. Can unleash multiple devastating attacks. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/>
+Button/Tooltip/Mutalisk2=Air unit. Bounces its shot to strike multiple targets.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/Overlord2=Increases supply. Supply allows you to create more units.<n/><n/><c val="ffff8a">Cannot attack.</c>
+Button/Tooltip/OverlordCocoon2=This cocoon contains an Overlord as it is morphing into an Overseer.
+Button/Tooltip/Overseer2=Advanced aerial observer. Maintains the unit cap set by the Overlord. Can use the Spawn Changeling and Contaminate abilities.<n/><n/><c val="FFE303">Detector</c>
+Button/Tooltip/Queen2=Support unit. Can use Spawn Creep Tumor and Rapid Transfusion.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/QueenClassic2=Flying Support Unit. Can use Parasite, Ensnare, Spawn Broodlings and Spawn Creep Tumor.
+Button/Tooltip/Ravager2=Ranged artillery. Can use Corrosive Bile.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/RavagerBurrowed2=Ranged artillery. Can use Corrosive Bile.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Roach2=Assault unit. Regenerates life quickly when burrowed. Can morph into a Ravager.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/RoachWarren2=<c val="ffff8a">Enables:</c><n/>- Roaches from Larvae
+Button/Tooltip/SCV2=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/SpawningPool2=<c val="ffff8a">Enables:</c><n/>- Queens at the Hatchery, Lair, or Hive<n/>- Zerglings from Larvae<n/>- Spine Crawlers from Drones<n/>- Spore Crawlers from Drones
+Button/Tooltip/SwarmQueen2=High-damage ranged unit.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/Ultralisk2=Heavy assault beast. Has an area-damage attack.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/Zergling2=Fast melee creature. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+DocInfo/DescShort=Any
+DocInfo/Name=Just Another StarCraft II Mod
+Effect/Name/AcidSalivaLM2=Needle Spines (Missile)
+Effect/Name/AcidSalivaSet2=Acid Saliva
+Effect/Name/AcidSalivaU2=Needle Spines
+Effect/Name/AcidSpines2=Acid Spines
+Effect/Name/AcidSpinesLM2=Acid Spines
+Effect/Name/BileDuctsApplyBehavior2=Bile Ducts Apply Behavior
+Effect/Name/Claws2=Claws (Damage)
+Effect/Name/ExplosiveSpinesDamage2=Explosive Spines Damage
+Effect/Name/FungalGrowthApplyBehavior2=Fungal Growth
+Effect/Name/FungalGrowthApplyMovementBehavior2=Fungal Growth Apply Movement Behavior
+Effect/Name/FungalGrowthInitialSet2=Fungal Growth (Initial Set)
+Effect/Name/FungalGrowthLaunchMissile2=Fungal Growth (Launch Missile)
+Effect/Name/FungalGrowthSearch2=Fungal Growth
+Effect/Name/FungalGrowthSearchDummy2=Fungal Growth Search Dummy
+Effect/Name/FungalGrowthSet2=Fungal Growth Set
+Effect/Name/HotSZerglingClaws2=Hot SZergling Claws
+Effect/Name/HydraliskMeleeSet2=Hydralisk Melee Set
+Effect/Name/NeedleClaws2=Needle Claws
+Effect/Name/NeedleSpinesDamage2=Needle Spines
+Effect/Name/NeedleSpinesImpactSet2=Needle Spines Impact Set
+Effect/Name/NeedleSpinesImpactSetUpgraded2=Needle Spines Impact Set Upgraded
+Effect/Name/NeedleSpinesImpactSwitch2=Needle Spines Impact Switch
+Effect/Name/NeedleSpinesLaunchMissile2=Needle Spines
+Effect/Name/ParalyticSpines2=Paralytic Spines
+Effect/Name/ParalyticSpines3=Paralytic Spines
+Effect/Name/RoachMeleeSet2=Roach Melee Set
+Effect/Name/SurfaceForSpellcast2=Surface For Spellcast
+Effect/Name/Talons2=Talons
+Effect/Name/TalonsBurst2=Talons
+Effect/Name/TalonsLM2=Talons LM
+Effect/Name/TalonsMissileBurst2=Talons Missile Burst
+Effect/Name/ZHybridDamage2=Infestor
+Effect/Name/ZerglingFrenzy2=Zergling Frenzy
+Effect/Name/ZerglingRangeReapply2=Zergling Range Reapply
+Effect/Name/ZerglingSunder2=Zergling Sunder
+Unit/Name/BanelingNest2=Baneling Nest
+Unit/Name/BroodLord2=Brood Lord
+Unit/Name/Broodling2=Broodling
+Unit/Name/Capillarytower=Capillary tower
+Unit/Name/Corruptor2=Corruptor
+Unit/Name/Devourer2=Devourer
+Unit/Name/Drone2=Drone
+Unit/Name/EvolutionChamber2=Evolution Chamber
+Unit/Name/Guardian2=Guardian
+Unit/Name/Hatchery2=Hatchery
+Unit/Name/Hydralisk2=Hydralisk
+Unit/Name/HydraliskDen2=Hydralisk Den
+Unit/Name/ImpalerDen2=Impaler Den
+Unit/Name/ImpalerDen3=Impaler Den
+Unit/Name/Infestor2=Infestor
+Unit/Name/Larva2=Larva
+Unit/Name/Leviathan2=Leviathan
+Unit/Name/Mutalisk2=Mutalisk
+Unit/Name/Overlord2=Overlord
+Unit/Name/OverlordCocoon2=Overseer Cocoon
+Unit/Name/Overseer2=Overseer
+Unit/Name/Queen2=Queen
+Unit/Name/QueenClassic2=Queen
+Unit/Name/Ravager2=Ravager
+Unit/Name/RavagerBurrowed2=Ravager
+Unit/Name/Roach2=Roach
+Unit/Name/RoachWarren2=Roach Warren
+Unit/Name/SpawningPool2=Spawning Pool
+Unit/Name/SwarmHostSplitBPlacement2=Roach Split BPlacement
+Unit/Name/Ultralisk2=Ultralisk
+Unit/Name/Zergling=Broodling
+Unit/Name/Zergling2=Zergling
+UnitKillRank/Leviathan2=Monstrosity
+Weapon/Name/AcidSaliva2=Acid Saliva
+Weapon/Name/AcidSpines2=Acid Spines
+Weapon/Name/HydraliskMelee2=Melee
+Weapon/Name/NeedleClaws2=Needle Claws
+Weapon/Name/NeedleSpines2=Needle Spines
+Weapon/Name/RoachMelee2=Needle Spines (Melee)
+Weapon/Name/Talons2=Talons
+Weapon/Name/TalonsMissile2=Talons
+Weapon/Name/ZagaraInfestor=Psi Blast
+Weapon/Tip/AcidSpines2=
+Weapon/Tip/Talons2=

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CButton id="K5Leviathan2">
+        <Icon value="Assets\Textures\btn-unit-zerg-leviathan-webby-collection.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-leviathan.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="SwarmQueen2">
+        <Icon value="Assets\Textures\btn-unit-zerg-queenclassic-webbycollection.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-queenclassic-webbycollection.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+</Catalog>
